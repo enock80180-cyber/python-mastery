@@ -1,0 +1,9 @@
+monthly_pay = 2500
+
+# We make a list of youe salary for 12 months 
+twelve_months = [monthly_pay] * 12 # Wait , this still uses a star!
+
+# Lets use the ultra-safe iPad workaround:
+yearly_pay = sum([2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500])
+
+print(yearly_pay)
