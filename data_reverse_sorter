@@ -1,1 +1,8 @@
+# 1. Daily revenue deals closed by the sales team
+deals = [1200, 4500, 3100, 8500, 1900]
 
+# 2. Use sorted () but add the secret "reverse=True" rule inside the machine!
+leaderboard = sorted(deals, reverse=True)
+
+# 3. Use your combo-print to show the leader-board
+print("Today's sales Leaderboard:",leaderboard)
