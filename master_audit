@@ -1,0 +1,18 @@
+# 1.Raw dataset of project completiontimes (in hours)
+project_hours = [12, 45, 28, 34, 19, 41]
+
+# 2 Run the math and analytics engines
+total_hours = sum(project_hours)
+longest_hours = max(project_hours)
+
+# 3. Print the Master Dashboard Header
+print("=== CALCO MASTER AUDIT DASHBOARD ===")
+print("Total Operational hours:", total_hours)
+print("longest Single project time:", longest_hours, "hours")
+
+# 4. Run the security threshold search 
+if 50 in project_hours:
+    print("CRITICAL ALERT: A project breached the 50-hour Limit!")
+else:
+    print("STATUS CLEAR: ALL products are under the 50-hour ceiling.")
+print("==============================================================")
