@@ -1,0 +1,10 @@
+# 1. The current queue of customers waiting for processing 
+customer_queue = ["Alice", "Bob", "Charlie"]
+print("Queue before pop:", customer_queue)
+
+# 2. Use .pop() to eject the person at Index 0 and save them!
+next_customer = customer_queue.pop(0)
+
+# 3. Print the results to see the change 
+print("Ejected Customer:", next_customer)
+print("Queue after pop:", customer_queue)
