@@ -1,0 +1,9 @@
+# 1. The subscriber list containing the bad email
+subscribers = ["user1@calco.com","bad_bot@email.com", "user2@calco.com"]
+print("Before removal:", subscribers)
+
+# 2. Use the tool .remove() to target the exact string value
+subscribers.remove("bad_bot@email.com")
+
+# 3. Print the list to confirm it was eleminated 
+print("After removal:", subscribers)
